@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+#color-box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+
+#change-color-btn{
+    
+    background-color: #e4caca;
+    padding: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 49px;
+    margin-top: 70px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    
+    :hover{
+        transform: scale(1.1);
+        transition:  box-shadow 0.3s ease;
+        background-color: rgb(209, 158, 158);
+        
+    }
+}
