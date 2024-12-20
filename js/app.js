@@ -1,8 +1,8 @@
 const color_box=document.getElementById('color-box');
 
-color_box.addEventListener('click',()=>{
+/*color_box.addEventListener('click',()=>{
     color_box.style.backgroundColor=color_box.style.backgroundColor==='red'? 'blue':'red';
-});
+});*/
 
 
 
@@ -17,7 +17,6 @@ function getrandomcolor(){
 };
 
 const  change_color=document.getElementById('change-color-btn');
-
 change_color.addEventListener('click',()=>{
-    color_box.style.backgroundColor='black'//getrandomcolor();
+        color_box.style.backgroundColor=getrandomcolor();
 });

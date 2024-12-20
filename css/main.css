@@ -11,6 +11,10 @@
   height: 200px;
   background-color: aqua;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 #change-color-btn {
@@ -21,13 +25,12 @@
   border: none;
   cursor: pointer;
   font-size: 20px;
-  margin-left: 49px;
-  margin-top: 70px;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: transform 0.3s ease;
 }
 #change-color-btn :hover {
   transform: scale(1.1);
   transition: box-shadow 0.3s ease;
   background-color: rgb(209, 158, 158);
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
